@@ -1,0 +1,8 @@
+/.idea
+/.vscode
+
+# Ambiente Virtual
+/venv
+
+# Variáveis de Ambiente
+.env

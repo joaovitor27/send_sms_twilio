@@ -6,3 +6,7 @@
 
 # Variáveis de Ambiente
 .env
+
+# Arquivos de Log
+/__pycache__
+

@@ -10,7 +10,7 @@ RECIPIENTS: list = [
     {'phone': '+5586995880950', 'device_id': '897978997'},
 ]
 
-MESSAGE: str = message.network
+MESSAGE: str = message.shipping
 
 for recipient in RECIPIENTS:
     send_message: callable(ConfigTwilio) = ConfigTwilio().with_to(recipient.get('phone'))
